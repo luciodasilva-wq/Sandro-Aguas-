@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f1f6ff"/><stop offset="1" stop-color="#cfdffa"/></linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2f46bd"/><stop offset=".45" stop-color="#8aa2ec"/><stop offset="1" stop-color="#2f46bd"/></linearGradient>
+    <clipPath id="jug"><path d="M222 130 L222 150 C222 170 150 172 150 214 L150 420 Q150 452 184 452 L328 452 Q362 452 362 420 L362 214 C362 172 290 170 290 150 L290 130 Z"/></clipPath>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <ellipse cx="256" cy="458" rx="118" ry="12" fill="#1d2a86" opacity=".18"/>
+  <path d="M222 130 L222 150 C222 170 150 172 150 214 L150 420 Q150 452 184 452 L328 452 Q362 452 362 420 L362 214 C362 172 290 170 290 150 L290 130 Z" fill="url(#glass)"/>
+  <g clip-path="url(#jug)">
+    <rect x="140" y="236" width="232" height="16" fill="#1d2a86" opacity=".28"/>
+    <rect x="140" y="388" width="232" height="16" fill="#1d2a86" opacity=".28"/>
+    <rect x="140" y="252" width="232" height="3" fill="#fff" opacity=".35"/>
+    <rect x="140" y="404" width="232" height="3" fill="#fff" opacity=".35"/>
+    <rect x="140" y="284" width="232" height="72" fill="#f7f8fc"/>
+    <rect x="140" y="284" width="232" height="5" fill="#1f9d55"/>
+    <rect x="140" y="351" width="232" height="5" fill="#1f9d55"/>
+    <rect x="170" y="190" width="12" height="240" rx="6" fill="#fff" opacity=".35"/>
+  </g>
+  <path d="M222 130 L222 150 C222 170 150 172 150 214 L150 420 Q150 452 184 452 L328 452 Q362 452 362 420 L362 214 C362 172 290 170 290 150 L290 130 Z" fill="none" stroke="#2a3ca8" stroke-width="4" stroke-linejoin="round"/>
+  <rect x="208" y="118" width="96" height="14" rx="7" fill="#3347b8"/>
+  <rect x="214" y="72" width="84" height="50" rx="9" fill="#1d2a86"/>
+  <path d="M232 82 V112 M246 82 V112 M260 82 V112 M274 82 V112" stroke="#4a5fd0" stroke-width="4" stroke-linecap="round"/>
+  <g transform="translate(256 320) scale(.52) translate(-257 -328)" fill="none" stroke="#1d2a86" stroke-width="24" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M238 294 C232 276 218 270 208 270 C190 270 178 281 178 296 C178 330 244 322 244 358 C244 374 230 386 210 386 C192 386 178 378 174 360"/>
+    <path d="M280 270 V386 M280 270 H306 C328 270 340 282 340 302 C340 322 328 334 306 334 H280"/>
+  </g>
+</svg>
